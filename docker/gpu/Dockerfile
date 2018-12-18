@@ -1,7 +1,7 @@
 FROM nvidia/cuda:8.0-cudnn6-devel-ubuntu16.04
 LABEL maintainer caffe-maint@googlegroups.com
 
-RUN sed -i 's/http:\/\/archive\.ubuntu\.com\/ubuntu\//http:\/\/mirrors\.163\.com\/ubuntu\//g' /etc/apt/sources.list
+RUN sed -i 's/http:\/\/archive\.ubuntu\.com\/ubuntu\//http:\/\/mirrors\.tuna\.tsinghua\.edu\.cn\/ubuntu\//g' /etc/apt/sources.list
 
 RUN apt-get update && apt-get install -y --no-install-recommends \
         build-essential \
