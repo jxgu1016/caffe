@@ -40,7 +40,7 @@ Examples:
 
 `docker build -t caffe:cpu cpu`
 
-`docker build -t caffe:gpu gpu`
+`docker build -t mycaffe:gpu gpu`
 
 You can also build Caffe and run the tests in the image:
 
